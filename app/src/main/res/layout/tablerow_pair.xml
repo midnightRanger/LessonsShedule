@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="1dp"
+    android:id="@+id/layout">
+
+    <TextView
+        android:id="@+id/number_tv"
+        style="@style/SampleTableRowTextView"
+        android:gravity="left"
+        android:text="@string/pair_number_example"
+        android:layout_marginEnd="10dp"/>
+
+    <TextView
+        android:id="@+id/discipline_tv"
+        style="@style/SampleTableRowTextView"
+        android:gravity="left"
+        android:text="@string/discipline_example" />
+
+    <TextView
+        android:id="@+id/teacher_tv"
+        style="@style/SampleTableRowTextView"
+        android:gravity="right"
+        android:text="@string/teacher_example" />
+
+</TableRow>

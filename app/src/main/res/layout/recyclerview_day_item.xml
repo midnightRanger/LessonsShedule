@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp"
+    android:layout_marginTop="1dp"
+    android:layout_marginBottom="1dp"
+    android:shrinkColumns="0"
+    android:stretchColumns="1, 2"
+    android:id="@+id/schedule_day_tl">
+
+    <TableRow>
+        <TextView
+            style="@style/SampleTableRowTextView"
+            android:layout_marginEnd="10dp"
+            android:gravity="left"
+            android:text="@string/zero" />
+
+        <TextView
+            android:id="@+id/is_filial_tv"
+            style="@style/SampleTableRowTextView"
+            android:gravity="center"
+            android:text="@string/nahimovsky"/>
+    </TableRow>
+</TableLayout>
